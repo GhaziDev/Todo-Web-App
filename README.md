@@ -1,5 +1,5 @@
 # Todo-Web-App
-Get a  SECRET_KEY from https://djecrety.ir/ , and put it in settings.py in backend folder.
+Get a  SECRET_KEY from https://djecrety.ir/ , and put it inside `SECRET_KEY` variable settings.py in backend folder.
 
 Remember to create an admin account, following this steps:
 
