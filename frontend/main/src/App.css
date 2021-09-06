@@ -1,0 +1,146 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.main-div{
+  background-color:  #223641;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+
+.add-task-btn{
+  width: 180px;
+  height: 50px;
+  border: 0;
+  background-color: #394d63;
+  display: block;
+  margin-top: 20px;
+}
+.add-task-btn:hover{
+  background-color:#223141;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.date-label{
+  color: whitesmoke;
+
+}
+.description-label{
+  color: whitesmoke;
+}
+.status-label{
+  color: whitesmoke;
+}
+.create-btn{
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  outline: 0;
+  border: 0;
+
+
+}
+.create-btn:hover{
+  color: white;
+  background-color: #223141;
+  cursor: pointer;
+}
+.desc-inp{
+  display: block;
+  min-width: 180px;
+  min-height: 480px;
+  outline: 0;
+}
+.status-inp{
+  display: block;
+}
+.date-inp{
+  display: block;
+  width: 180px;
+  height: 50px;
+  outline: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.date-inp:focus{
+   border-bottom-color:#172253;
+}
+
+.x-btn{
+  display: block;
+}
+.x-btn:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #223141;
+}
+.date{
+  display: block;
+  color: white;
+}
+.description{
+  display: block;
+  white-space: pre-wrap;
+  color: white;
+}
+.status{
+  display: block;
+  color: white;
+}
+
+.date-lbl{
+  display:block;
+  font-weight: bold;
+  color: #008080 ;
+}
+.desc-lbl{
+  display: block;
+  font-weight: bold;
+  color: #008080;
+}
+.status-lbl{
+  display: block;
+  font-weight: bold;
+  color: #008080 ;
+}
+.publish-lbl{
+  display: block;
+  font-weight: bold;
+  color: #008080;
+}
+.published{
+  display: block;
+  color: white;
+}
+.edit-btn{
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  outline: 0;
+  border: 0;
+  margin-left: 10px;
+}
+.del-btn{
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  outline: 0;
+  border: 0;
+}
+.edit-btn:hover{
+  cursor: pointer;
+  background-color: #999999;
+}
+.del-btn:hover{
+  cursor: pointer;
+  background-color: #999999;
+}
+
